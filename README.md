@@ -17,7 +17,7 @@ By doing so we trick the game into thinking whatever code we submitted is valid.
 * `B` is the amount. Max size/amount is `long` for Rubies and `BigNumber` (allows for scientific notation afaik) for Gold and Souls 
 * `C` is the item type (`R` for Rubies, `G` for Gold, `S` for Souls, `Z` to unlock everything)
 
-Specifically this means (`gluesnifer...` would be the redemption code):
+Specifically this means (`gluesniffer...` would be the redemption code):
 ```
 gluesniffer1337G       -> 1337 gold
 gluesniffer6969696969R -> 6969696969 rubies
