@@ -1,5 +1,7 @@
 # Clicker Heroes
-Basically a server that allows you to spoof the redemption code submission response. By doing so you can use internal cheat codes that unlock various things (gems, gold, ...). This doesn't require modifications to the game. Tested on `v1.0e12-4699`.
+Basically a server that allows you to spoof the redemption code submission response. By doing so you can use internal cheat codes that unlock various things (gems, gold, ...). This doesn't require modifications to the game. Tested on `v1.0e12-4699`.  
+
+![image](https://github.com/ioncodes/clickerheroes/assets/18533297/55f750a6-da3e-4b1c-bcbc-15e09cba0353)
 
 ## How?
 The tool hosts a server that always returns the following response:
@@ -8,6 +10,7 @@ The tool hosts a server that always returns the following response:
     "success": "success",
     "response": "layle was here"
 }
+```
 
 By doing so we trick the game into thinking whatever code we submitted is valid. It then proceeds to do local checks to grant you whatever you requested. The information of what you get, and how much of it you get is entirely stored in the code you submit. There's also a "cheat code" that gives you everything (`Z` in the list below). The pattern is quite simple: `aaaaaaaaaaaBBBBBBBBBC`, where:
 * `a` can be ignored. We just need a 11 character long filler
